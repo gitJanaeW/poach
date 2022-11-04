@@ -22,6 +22,8 @@
   },
   "homepage": "https://github.com/gitJanaeW/poach#readme",
   "dependencies": {
-    "concurrently": "^7.5.0"
+    "bcrypt": "^5.1.0",
+    "concurrently": "^7.5.0",
+    "jsonwebtoken": "^8.5.1"
   }
 }
