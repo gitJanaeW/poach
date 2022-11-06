@@ -1,3 +1,4 @@
+// this file is called in server.js as "context" so that context will always return the JWT headers 
 const jwt = require('jsonwebtoken');
 
 const secret = 'secretsauce';
@@ -24,8 +25,8 @@ module.exports = {
     }
     return req;
   },
-  signToken: function ({ firstName, email, _id }) {
-    const payload = { firstName, email, _id };
+  signToken: function ({ username, email, _id }) {
+    const payload = { username, email, _id };
 
     return jwt.sign({ data: payload }, secret, { expiresIn: expiration });
   },
