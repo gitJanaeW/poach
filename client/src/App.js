@@ -1,5 +1,7 @@
 import './App.css';
 import Nav from "./components/Nav";
+import Landing from "./pages/Landing";
+import Footer from "./components/Footer";
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import {ApolloClient, InMemoryCache, ApolloProvider, createHttpLink,} from '@apollo/client';
 import {setContext} from '@apollo/client/link/context';
@@ -27,6 +29,8 @@ function App() {
   return (
     <div className="App">
       <Nav/>
+      <Landing/>
+      <Footer/>
     </div>
   );
 }
