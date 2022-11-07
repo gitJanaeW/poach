@@ -1,4 +1,5 @@
 import './App.css';
+import Nav from "./components/Nav";
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import {ApolloClient, InMemoryCache, ApolloProvider, createHttpLink,} from '@apollo/client';
 import {setContext} from '@apollo/client/link/context';
@@ -25,9 +26,7 @@ const client = new ApolloClient({
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1 className='underline'>HELLLOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO</h1>
-      </header>
+      <Nav/>
     </div>
   );
 }
