@@ -17,7 +17,7 @@ export default function Search() {
                     <img className="object-cover rounded-xl h-80 lg:w-full w-screen" src="../images/frontendtest/chili.jfif" alt="recipe"/>
                 </div>
                 <div>
-                    <h2 className="text-lg">Tamarind Chicken</h2>
+                    <h2 className="text-lg">Spicy Food In My Tummy Yum Yum</h2>
                     <p className="text-slate-400">40 mins | 4 ingredents | 5 servings</p>
                 </div>
             </div>
@@ -35,7 +35,7 @@ export default function Search() {
                     <img className="object-cover rounded-xl h-80 lg:w-full w-screen" src="../images/frontendtest/pasta.jfif" alt="recipe"/>
                 </div>
                 <div>
-                    <h2 className="text-lg">Tamarind Chicken</h2>
+                    <h2 className="text-lg">Chicken Nuggets Save the World MMMM</h2>
                     <p className="text-slate-400">40 mins | 4 ingredents | 5 servings</p>
                 </div>
             </div>
