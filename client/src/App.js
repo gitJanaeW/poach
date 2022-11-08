@@ -2,6 +2,7 @@ import './App.css';
 import Nav from "./components/Nav";
 import Landing from "./pages/Landing";
 import Footer from "./components/Footer";
+import Search from "./pages/Search";
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import {ApolloClient, InMemoryCache, ApolloProvider, createHttpLink,} from '@apollo/client';
 import {setContext} from '@apollo/client/link/context';
@@ -30,6 +31,7 @@ function App() {
     <div className="App">
       <Nav/>
       <Landing/>
+      <Search/>
       <Footer/>
     </div>
   );
