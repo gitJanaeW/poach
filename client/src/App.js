@@ -31,8 +31,8 @@ function App() {
   return (
     <div className="App">
       <Nav/>
-      {/* <Landing/> */}
-      <Profile/>
+      <Landing/>
+      {/* <Profile/> */}
       {/* <Search/> */}
       <Footer/>
     </div>
