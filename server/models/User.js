@@ -2,6 +2,12 @@ const mongoose = require('mongoose');
 const { Schema } = mongoose;
 const bcrypt = require('bcrypt');
 
+// user: id, username, email, password, 
+//     [recipes: id, recipeName, img, likes, tags, prepTime, servings, [ingredients], [directions],
+//         [poaches: id, recipeName, likes, tags, serving,  prepTime, [ingredients], [directions]]
+//     collections: {name: [recipes: id, recipeName, img, likes, tags, prepTime, servings, [ingredients], [directions],
+//         [poaches: id, recipeName, likes, tags, serving,  prepTime, [ingredients], [directions]]]}]
+
 const userSchema = new Schema({
   username: {
     type: String,

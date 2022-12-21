@@ -1,0 +1,120 @@
+{
+    "userId": 73825257368957698678956,
+    "username": "lernan",
+    "email": "lernan@gmail.com",
+    "password": "password12345",
+    "recipes": [
+        {
+			"recipeId": 148936375026780487967,
+			"recipeName":"Butter Chicken",
+            "img": "img url goes here",
+            "likes": 5,
+            "tags": ["Flavorful", "Dairy", "Indian", "Chicken"],
+            "prepTime": "40 mins",
+            "servings": 5,
+			"ingredients": [
+                "blah",
+                "blah",
+                "blah",
+                "blah",
+                "blah",
+                "blah",
+                "blah",
+                "blah",
+                "blah",
+                "blah"
+            ],
+            "directions": [
+                "Prepare the vinaigrette first. Whisk together the tomato paste, red wine vinegar, basil, garlic powder, sugar, salt, and pepper in a bowl until smooth. Begin to whisk in the olive oil, one tablespooon at a time, until fully incorporated. Set the vinaigrette aside.",
+                "Cook the rotini pasta according to the package directions (boil for 7-10 minutes, or until tender). Drain the pasta in a colander. Rinse briefly with cool water to cool off the pasta. Drain well.",
+                "Once the pasta has drained, transfer it to a large bowl. Add the chopped broccoli, red onion, and sunflower seeds. Crumble the feta over top. Drizzle the dressing into the bowl and then gently toss the ingredients until they are evenly combined and everything is coated in dressing. Serve immediately or refrigerate until ready to eat."
+            ],
+			"poaches": [
+				{
+					"poachId": 148936375026780487967,
+                    "recipeName":"Butter Tofu",
+                    "likes": 5,
+                    "tags": ["Flavorful", "Dairy", "Indian", "Chicken"],
+                    "prepTime": "40 mins",
+                    "servings": 5,
+                    "ingredients": [
+                        "blah",
+                        "blah",
+                        "blah",
+                        "blah",
+                        "blah",
+                        "blah",
+                        "blah",
+                        "blah",
+                        "blah",
+                        "blah"
+                    ],
+                    "directions": [
+                        "Prepare the vinaigrette first. Whisk together the tomato paste, red wine vinegar, basil, garlic powder, sugar, salt, and pepper in a bowl until smooth. Begin to whisk in the olive oil, one tablespooon at a time, until fully incorporated. Set the vinaigrette aside.",
+                        "Cook the rotini pasta according to the package directions (boil for 7-10 minutes, or until tender). Drain the pasta in a colander. Rinse briefly with cool water to cool off the pasta. Drain well.",
+                        "Once the pasta has drained, transfer it to a large bowl. Add the chopped broccoli, red onion, and sunflower seeds. Crumble the feta over top. Drizzle the dressing into the bowl and then gently toss the ingredients until they are evenly combined and everything is coated in dressing. Serve immediately or refrigerate until ready to eat."
+                    ]
+				}
+			]
+
+		}
+    ],
+    "collections": {
+        "Liked": [
+            {
+                "recipeId": 148936375026780487967,
+                "recipeName":"Butter Chicken",
+                "img": "img url goes here",
+                "likes": 5,
+                "tags": ["Flavorful", "Dairy", "Indian", "Chicken"],
+                "prepTime": "40 mins",
+                "servings": 5,
+                "ingredients": [
+                    "blah",
+                    "blah",
+                    "blah",
+                    "blah",
+                    "blah",
+                    "blah",
+                    "blah",
+                    "blah",
+                    "blah",
+                    "blah"
+                ],
+                "directions": [
+                    "Prepare the vinaigrette first. Whisk together the tomato paste, red wine vinegar, basil, garlic powder, sugar, salt, and pepper in a bowl until smooth. Begin to whisk in the olive oil, one tablespooon at a time, until fully incorporated. Set the vinaigrette aside.",
+                    "Cook the rotini pasta according to the package directions (boil for 7-10 minutes, or until tender). Drain the pasta in a colander. Rinse briefly with cool water to cool off the pasta. Drain well.",
+                    "Once the pasta has drained, transfer it to a large bowl. Add the chopped broccoli, red onion, and sunflower seeds. Crumble the feta over top. Drizzle the dressing into the bowl and then gently toss the ingredients until they are evenly combined and everything is coated in dressing. Serve immediately or refrigerate until ready to eat."
+                ],
+                "poaches": [
+                    {
+                        "poachId": 148936375026780487967,
+                        "recipeName":"Butter Tofu",
+                        "likes": 5,
+                        "tags": ["Flavorful", "Dairy", "Indian", "Chicken"],
+                        "prepTime": "40 mins",
+                        "servings": 5,
+                        "ingredients": [
+                            "blah",
+                            "blah",
+                            "blah",
+                            "blah",
+                            "blah",
+                            "blah",
+                            "blah",
+                            "blah",
+                            "blah",
+                            "blah"
+                        ],
+                        "directions": [
+                            "Prepare the vinaigrette first. Whisk together the tomato paste, red wine vinegar, basil, garlic powder, sugar, salt, and pepper in a bowl until smooth. Begin to whisk in the olive oil, one tablespooon at a time, until fully incorporated. Set the vinaigrette aside.",
+                            "Cook the rotini pasta according to the package directions (boil for 7-10 minutes, or until tender). Drain the pasta in a colander. Rinse briefly with cool water to cool off the pasta. Drain well.",
+                            "Once the pasta has drained, transfer it to a large bowl. Add the chopped broccoli, red onion, and sunflower seeds. Crumble the feta over top. Drizzle the dressing into the bowl and then gently toss the ingredients until they are evenly combined and everything is coated in dressing. Serve immediately or refrigerate until ready to eat."
+                        ]
+                    }
+                ]
+    
+            }
+        ]
+    }
+}
